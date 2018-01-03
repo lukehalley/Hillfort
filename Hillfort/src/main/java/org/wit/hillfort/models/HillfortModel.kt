@@ -2,6 +2,7 @@ package org.wit.hillfort.models
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
+// Data model representing a hillfort location with tracking information
 
 @Parcelize
 data class HillfortModel(var id: Long = 0,
