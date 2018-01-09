@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.MenuItem
 import android.view.View
 import android.view.ViewGroup
+// Adapter for displaying hillfort list items in RecyclerView
 import kotlinx.android.synthetic.main.card_list_hillfort.view.*
 import org.jetbrains.anko.AnkoLogger
 import org.wit.hillfort.R
