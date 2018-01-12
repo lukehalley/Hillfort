@@ -9,6 +9,7 @@ import org.wit.hillfort.activities.HillfortSharedPreferences
 import org.wit.hillfort.helpers.exists
 import org.wit.hillfort.helpers.read
 import org.wit.hillfort.helpers.write
+// JSON-based storage for user account information
 import java.util.*
 
 val USER_JSON_FILE = "users.json"
