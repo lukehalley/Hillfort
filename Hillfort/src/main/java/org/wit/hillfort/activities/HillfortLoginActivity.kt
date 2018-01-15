@@ -12,6 +12,7 @@ import org.jetbrains.anko.toast
 import org.wit.hillfort.R
 import org.wit.hillfort.main.MainApp
 import org.wit.hillfort.models.HillfortFirebaseStore
+// Handles user login and session management
 
 class HillfortLoginActivity : AppCompatActivity(), AnkoLogger {
 
