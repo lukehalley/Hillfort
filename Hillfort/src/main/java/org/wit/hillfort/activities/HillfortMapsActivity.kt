@@ -17,6 +17,7 @@ import org.wit.hillfort.R
 import org.wit.hillfort.models.HillfortModel
 
 class HillfortMapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.OnMarkerDragListener, GoogleMap.OnCameraMoveListener, AnkoLogger {
+// Google Maps integration for hillfort location visualization
     private lateinit var map: GoogleMap
     var location = HillfortModel()
 
