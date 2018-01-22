@@ -15,6 +15,7 @@ import android.widget.TextView
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_hillfort_list.*
 import org.jetbrains.anko.*
+// Main activity displaying the list of discovered hillforts
 import org.wit.hillfort.R
 import org.wit.hillfort.main.MainApp
 import org.wit.hillfort.models.HillfortModel
