@@ -3,6 +3,7 @@ package org.wit.hillfort.activities
 import android.content.Context
 
 class HillfortSharedPreferences(context: Context){
+// Manages application preferences and settings storage
 
     val PREFERENCE_NAME = "CurrentUser"
     val PREF_VAL_USER_ID = "CurrentUserID"
