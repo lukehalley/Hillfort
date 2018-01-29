@@ -2,6 +2,7 @@ package org.wit.hillfort.helpers
 
 import android.app.Activity
 import android.content.Context
+// Utility functions for image capture and processing
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
