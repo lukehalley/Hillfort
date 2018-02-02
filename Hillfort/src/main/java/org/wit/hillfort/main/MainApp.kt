@@ -7,6 +7,7 @@ import org.wit.hillfort.models.HillfortFirebaseStore
 import org.wit.hillfort.models.HillfortStore
 import org.wit.hillfort.models.UserJSONStore
 import org.wit.hillfort.models.UserStore
+// Initialize app context and default data stores
 
 class MainApp : Application(), AnkoLogger {
 
