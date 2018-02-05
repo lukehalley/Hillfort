@@ -5,6 +5,7 @@ import kotlinx.android.parcel.Parcelize
 // Data model representing a hillfort location with tracking information
 
 @Parcelize
+// Represents a single hillfort with location and metadata
 data class HillfortModel(var id: Long = 0,
                          var fbId: String = "",
                          var title: String = "",
