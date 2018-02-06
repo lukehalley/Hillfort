@@ -22,6 +22,7 @@ import org.wit.hillfort.models.HillfortModel
 import org.wit.hillfort.models.UserModel
 
 
+// Bind adapter to RecyclerView for hillfort list display
 
 
 
