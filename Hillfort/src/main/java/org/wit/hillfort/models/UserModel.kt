@@ -9,3 +9,4 @@ data class UserModel(var id: Long = 0,
                           var email: String = "",
                           var password: String = "") : Parcelable
 
+// Store user authentication credentials and profile info
