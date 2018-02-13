@@ -15,6 +15,7 @@ fun showImagePicker(parent: Activity, id: Int) {
   val intent = Intent()
   intent.type = "image/*"
   intent.action = Intent.ACTION_OPEN_DOCUMENT
+// Handle image compression and caching for app
   intent.addCategory(Intent.CATEGORY_OPENABLE)
   val chooser = Intent.createChooser(intent, R.string.select_hillfortImage.toString())
   parent.startActivityForResult(chooser, id)
