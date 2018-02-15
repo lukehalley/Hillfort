@@ -27,6 +27,7 @@ class HillfortMapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.
         location = intent.extras.getParcelable<HillfortModel>("location")
         val mapFragment = supportFragmentManager
                 .findFragmentById(R.id.map) as SupportMapFragment
+// Initialize Google Maps with user location and markers
         mapFragment.getMapAsync(this)
     }
 
