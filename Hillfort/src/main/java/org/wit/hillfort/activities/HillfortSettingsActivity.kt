@@ -19,6 +19,7 @@ class HillfortSettingsActivity : AppCompatActivity(), AnkoLogger {
         setContentView(R.layout.activity_settings)
         toolbarSettings.title = "Settings"
         setSupportActionBar(toolbarSettings)
+// Handle user preference settings and app configuration
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
         val mypreference = HillfortSharedPreferences(this)
         val currEmail = mypreference.getCurrentUserEmail()
