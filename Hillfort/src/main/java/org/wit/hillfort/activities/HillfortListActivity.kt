@@ -39,6 +39,7 @@ class HillfortListActivity : AppCompatActivity(), HillfortListener, AnkoLogger {
         val actionbar: ActionBar? = supportActionBar
         actionbar?.apply {
             setDisplayHomeAsUpEnabled(true)
+// Initialize adapter and populate list from stored hillforts
             setHomeAsUpIndicator(R.drawable.ic_menu)
         }
         val layoutManager = LinearLayoutManager(this)
