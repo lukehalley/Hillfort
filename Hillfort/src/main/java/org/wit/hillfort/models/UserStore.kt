@@ -5,4 +5,4 @@ interface UserStore {
     fun create(user: UserModel)
     fun update(user: UserModel)
     fun delete(user: UserModel)
-}
+}// Thread-safe access to user data required for Firebase sync
