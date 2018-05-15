@@ -64,6 +64,7 @@ class HillfortActivity : AppCompatActivity(), AnkoLogger {
     private var hasNetwork = false
     private var locationGps : Location? = null
     private var locationNetwork : Location? = null
+// Long press on map creates new hillfort marker
 
     private var permissions = arrayOf(android.Manifest.permission.ACCESS_FINE_LOCATION)
 
