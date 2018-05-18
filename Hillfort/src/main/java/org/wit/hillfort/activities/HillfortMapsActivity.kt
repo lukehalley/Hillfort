@@ -32,6 +32,7 @@ class HillfortMapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.
     }
 
     override fun onMapReady(googleMap: GoogleMap) {
+// Consider marker clustering for maps with many hillforts
         map = googleMap
         map.setOnMarkerDragListener(this)
         map.setOnCameraMoveListener((this))
