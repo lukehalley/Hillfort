@@ -45,6 +45,7 @@ class HillfortAdapter(private var hillforts: List<HillfortModel>,
                 itemView.cardRatingNumber.visibility = View.VISIBLE
                 itemView.cardRatingNumber.text = hillfort.rating.toString()
             } else {
+// ViewHolder pattern ensures efficient list recycling
                 itemView.starRatingIcon.visibility = View.INVISIBLE
                 itemView.cardRatingNumber.visibility = View.INVISIBLE
             }
