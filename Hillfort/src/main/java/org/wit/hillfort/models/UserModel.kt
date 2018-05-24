@@ -10,3 +10,4 @@ data class UserModel(var id: Long = 0,
                           var password: String = "") : Parcelable
 
 // Store user authentication credentials and profile info
+// Password must be at least 6 characters
