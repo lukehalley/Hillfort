@@ -51,6 +51,7 @@ class HillfortFirebaseStore : HillfortStore, AnkoLogger {
     override fun create(hillfort: HillfortModel) {
         
         hillfort.id = generateRandomHillfortId()
+// Firebase listeners trigger real-time updates to local cache
 
         info { "KEY: " + auth.uid.toString() }
 
