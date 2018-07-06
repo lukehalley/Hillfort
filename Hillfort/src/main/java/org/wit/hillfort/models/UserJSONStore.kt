@@ -15,6 +15,7 @@ import java.util.*
 val USER_JSON_FILE = "users.json"
 val usergsonBuilder = GsonBuilder().setPrettyPrinting().create()
 val userListType = object : TypeToken<java.util.ArrayList<UserModel>>() {}.type
+// Handle JSON serialization for user profile data
 
 fun generateRandomUserId(): Long {
     return Random().nextLong()
