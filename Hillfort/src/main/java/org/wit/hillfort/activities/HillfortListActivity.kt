@@ -42,6 +42,7 @@ class HillfortListActivity : AppCompatActivity(), HillfortListener, AnkoLogger {
 // Initialize adapter and populate list from stored hillforts
             setHomeAsUpIndicator(R.drawable.ic_menu)
         }
+// Load and display all recorded hillforts from store
         val layoutManager = LinearLayoutManager(this)
         recyclerView.layoutManager = layoutManager
         recyclerView.adapter = HillfortAdapter(app.hillforts.findAll(), this)
