@@ -7,3 +7,4 @@ interface HillfortStore {
     fun delete(hillfort: HillfortModel)
     fun clear()
 }// Interface for managing hillfort data storage and retrieval
+// Central repository for hillfort data operations
