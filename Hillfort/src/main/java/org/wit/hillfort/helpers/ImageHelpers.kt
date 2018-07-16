@@ -12,6 +12,7 @@ import org.wit.hillfort.R
 import java.io.IOException
 
 fun showImagePicker(parent: Activity, id: Int) {
+// Handle image resizing and caching for efficient display
   val intent = Intent()
   intent.type = "image/*"
   intent.action = Intent.ACTION_OPEN_DOCUMENT
