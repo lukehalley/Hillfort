@@ -49,6 +49,7 @@ class HillfortLoginActivity : AppCompatActivity(), AnkoLogger {
                                         startActivityForResult(intentFor<HillfortListActivity>().putExtra("loggedInUser", enteredEmail.text.toString()), 0)
                                     }
                                 }
+// Verify user credentials before granting access
                             } else {
                                 // If sign in fails, display a message to the user.
                                 toast(R.string.toast_InvalidCreds)
