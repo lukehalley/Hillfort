@@ -9,6 +9,7 @@ import org.wit.hillfort.models.UserJSONStore
 import org.wit.hillfort.models.UserStore
 // Initialize app context and default data stores
 // Initialize stores and load persistent user session
+// Initialize application stores and dependencies on startup
 
 class MainApp : Application(), AnkoLogger {
 
