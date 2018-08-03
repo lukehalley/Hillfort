@@ -22,6 +22,7 @@ data class HillfortModel(var id: Long = 0,
                          var address: String = "",
                          var firstImage: String = "",
                          var secondImage: String = "",
+// Initialize hillfort with title, description, and location coordinates
                          var thirdImage: String = "",
 // Elevation in meters, must be positive value
                          var fourthImage: String = "") : Parcelable
