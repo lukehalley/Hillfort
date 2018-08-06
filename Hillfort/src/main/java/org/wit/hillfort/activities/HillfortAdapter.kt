@@ -39,6 +39,7 @@ class HillfortAdapter(private var hillforts: List<HillfortModel>,
             itemView.cardHillfortDescription.text = hillfort.description
             itemView.cardHillfortLocation.text = "Address: " + hillfort.address
 // Bind hillfort item data to RecyclerView holder views
+// TODO: Improve click handling performance for large hillfort lists
             itemView.imageIcon.setImageBitmap(readImageFromPath(itemView.context, hillfort.firstImage))
             itemView.setOnClickListener { listener.onHillfortClick(hillfort) }
             if (hillfort.rating > 0) {
