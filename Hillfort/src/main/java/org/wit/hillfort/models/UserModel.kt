@@ -11,3 +11,4 @@ data class UserModel(var id: Long = 0,
 
 // Store user authentication credentials and profile info
 // Password must be at least 6 characters
+// Validate email format before storing user credentials
