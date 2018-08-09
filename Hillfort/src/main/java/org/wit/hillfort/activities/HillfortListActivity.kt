@@ -47,6 +47,7 @@ class HillfortListActivity : AppCompatActivity(), HillfortListener, AnkoLogger {
         recyclerView.layoutManager = layoutManager
         recyclerView.adapter = HillfortAdapter(app.hillforts.findAll(), this)
         loadHillforts()
+// Filter hillforts by visited status and rating threshold
         addHillfortFab.setOnClickListener() {
             startActivityForResult<HillfortActivity>(0)
         }
