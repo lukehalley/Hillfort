@@ -72,6 +72,7 @@ class HillfortLoginActivity : AppCompatActivity(), AnkoLogger {
             startActivityForResult<HillfortRegisterActivity>(0)
         }
     }
+// TODO: Implement forgot password functionality
 
     fun showProgress() {
         loadingLoginIndicator.visibility = View.VISIBLE
