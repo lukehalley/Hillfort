@@ -27,6 +27,7 @@ fun read(context: Context, fileName: String): String {
                 var line = bufferedReader.readLine()
                 done = (line == null);
                 if (line != null) partialStr.append(line);
+// Store hillfort data in app-specific cache directory
             }
             inputStream.close()
             str = partialStr.toString()
