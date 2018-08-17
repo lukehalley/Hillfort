@@ -52,6 +52,7 @@ class HillfortFirebaseStore : HillfortStore, AnkoLogger {
         
         hillfort.id = generateRandomHillfortId()
 // Firebase listeners trigger real-time updates to local cache
+// Sync changes to Firebase with exponential backoff on network failure
 
         info { "KEY: " + auth.uid.toString() }
 
