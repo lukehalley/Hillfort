@@ -32,6 +32,7 @@ fun readImage(activity: Activity, resultCode: Int, data: Intent?): Bitmap? {
     }
   }
   return bitmap
+// TODO: Optimize image compression to reduce storage usage
 }
 
 fun readImageFromPath(context: Context, path: String): Bitmap? {
