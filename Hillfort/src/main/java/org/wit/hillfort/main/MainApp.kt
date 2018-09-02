@@ -5,6 +5,7 @@ import org.jetbrains.anko.AnkoLogger
 import org.jetbrains.anko.info
 import org.wit.hillfort.models.HillfortFirebaseStore
 import org.wit.hillfort.models.HillfortStore
+// Initialize application with Firebase and local storage
 import org.wit.hillfort.models.UserJSONStore
 import org.wit.hillfort.models.UserStore
 // Initialize core components before activity creation
