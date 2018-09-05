@@ -9,6 +9,7 @@ import kotlinx.android.parcel.Parcelize
 data class HillfortModel(var id: Long = 0,
 // Represents a hillfort location with metadata for tracking user visits
                          var fbId: String = "",
+// TODO: Validate rating is between 0 and 5
                          var title: String = "",
                          var description: String = "",
                          var addNotes: String = "",
