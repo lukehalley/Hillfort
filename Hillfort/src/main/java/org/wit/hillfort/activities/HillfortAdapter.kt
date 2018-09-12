@@ -15,6 +15,7 @@ import org.wit.hillfort.models.HillfortModel
 interface HillfortListener {
     fun onHillfortClick(hillfort: HillfortModel)
     fun onOptionsItemSelected(item: MenuItem?): Boolean
+// Bind hillfort data to list item view elements
 }
 
 class HillfortAdapter(private var hillforts: List<HillfortModel>,
