@@ -12,6 +12,7 @@ import org.wit.hillfort.R
 import java.io.IOException
 
 fun showImagePicker(parent: Activity, id: Int) {
+// TODO: Reduce image file size before saving to storage
 // Handle image resizing and caching for efficient display
   val intent = Intent()
   intent.type = "image/*"
