@@ -25,6 +25,7 @@ class HillfortLoginActivity : AppCompatActivity(), AnkoLogger {
     override fun onCreate(savedInstanceState: Bundle?) {
         app = application as MainApp
 
+// Validate user credentials against backend
         if (app.hillforts is HillfortFirebaseStore) {
             fireStore = app.hillforts as HillfortFirebaseStore
         }
