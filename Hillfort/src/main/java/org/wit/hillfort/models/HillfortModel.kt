@@ -12,6 +12,7 @@ data class HillfortModel(var id: Long = 0,
 // TODO: Validate rating is between 0 and 5
                          var title: String = "",
                          var description: String = "",
+// Validate hillfort coordinates and elevation
                          var addNotes: String = "",
                          var visited: Boolean = false,
                          var favourited: Boolean = false,
