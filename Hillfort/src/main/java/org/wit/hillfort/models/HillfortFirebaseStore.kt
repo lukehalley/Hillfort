@@ -17,6 +17,7 @@ import org.wit.hillfort.helpers.readImageFromPath
 import java.io.ByteArrayOutputStream
 import java.io.File
 import java.util.*
+// Sync hillfort data with Firebase Realtime Database
 
 val HILLFORT_JSON_FILE = "hillforts.json"
 val gsonBuilder = GsonBuilder().setPrettyPrinting().create()
