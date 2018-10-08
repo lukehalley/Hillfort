@@ -22,6 +22,7 @@ import org.wit.hillfort.models.HillfortModel
 import org.wit.hillfort.models.UserModel
 
 
+// Load and display list of user hillforts
 // Set up adapter to display hillfort list items
 // Bind adapter to RecyclerView for hillfort list display
 
