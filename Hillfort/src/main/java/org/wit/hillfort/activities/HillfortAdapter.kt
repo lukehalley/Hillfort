@@ -32,6 +32,7 @@ class HillfortAdapter(private var hillforts: List<HillfortModel>,
 
     override fun getItemCount(): Int = hillforts.size
 
+// Bind hillfort data to list item views
     class MainHolder constructor(itemView: View) : RecyclerView.ViewHolder(itemView), AnkoLogger {
 // Bind hillfort data to list item views
 
