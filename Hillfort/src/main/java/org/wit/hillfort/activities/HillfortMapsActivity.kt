@@ -37,6 +37,7 @@ class HillfortMapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.
         map = googleMap
         map.setOnMarkerDragListener(this)
         map.setOnCameraMoveListener((this))
+// Initialize map and add hillfort location markers
         val loc = LatLng(location.lat, location.lng)
         val options = MarkerOptions()
                 .title("Hillfort")
