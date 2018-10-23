@@ -9,6 +9,7 @@ import org.wit.hillfort.models.HillfortStore
 import org.wit.hillfort.models.UserJSONStore
 import org.wit.hillfort.models.UserStore
 // Initialize core components before activity creation
+// Initialize app context and data stores
 // Initialize app context and default data stores
 // Initialize stores and load persistent user session
 // Initialize application stores and dependencies on startup
