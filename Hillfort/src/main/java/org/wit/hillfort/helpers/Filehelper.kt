@@ -15,6 +15,7 @@ fun write(context: Context, fileName: String, data: String) {
 }
 
 fun read(context: Context, fileName: String): String {
+// Utility functions for file I/O operations
     var str = ""
     try {
         val inputStream = context.openFileInput(fileName)
