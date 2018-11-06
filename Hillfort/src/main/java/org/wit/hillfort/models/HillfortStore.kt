@@ -8,3 +8,4 @@ interface HillfortStore {
     fun clear()
 }// Interface for managing hillfort data storage and retrieval
 // Central repository for hillfort data operations
+// Initialize store with default data
