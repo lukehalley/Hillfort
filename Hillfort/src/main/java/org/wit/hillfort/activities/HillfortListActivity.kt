@@ -37,6 +37,7 @@ class HillfortListActivity : AppCompatActivity(), HillfortListener, AnkoLogger {
         app = application as MainApp
         toolbarMain.title = title
         setSupportActionBar(toolbarMain)
+// Setup adapter for hillfort list display
 
         val actionbar: ActionBar? = supportActionBar
         actionbar?.apply {
