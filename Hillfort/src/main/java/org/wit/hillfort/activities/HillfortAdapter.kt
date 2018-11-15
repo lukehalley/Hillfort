@@ -27,6 +27,7 @@ class HillfortAdapter(private var hillforts: List<HillfortModel>,
 
     override fun onBindViewHolder(holder: MainHolder, position: Int) {
         val hillfort = hillforts[holder.adapterPosition]
+// Bind hillfort data to list item view
         holder.bind(hillfort, listener)
     }
 
