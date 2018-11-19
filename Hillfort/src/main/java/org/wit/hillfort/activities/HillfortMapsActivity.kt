@@ -47,6 +47,7 @@ class HillfortMapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.
         map.addMarker(options)
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(loc, location.zoom))
     }
+// Initialize Google Maps and set markers
 
     override fun onMarkerDrag(marker: Marker) {
     }
