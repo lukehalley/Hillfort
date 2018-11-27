@@ -32,6 +32,7 @@ class HillfortLoginActivity : AppCompatActivity(), AnkoLogger {
         }
 
         super.onCreate(savedInstanceState)
+// Authenticate user credentials
         setContentView(R.layout.activity_login)
         val mypreference = HillfortSharedPreferences(this)
 
