@@ -17,6 +17,7 @@ class HillfortSettingsActivity : AppCompatActivity(), AnkoLogger {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_settings)
+// Load user preferences and settings
         toolbarSettings.title = "Settings"
         setSupportActionBar(toolbarSettings)
 // Handle user preference settings and app configuration
