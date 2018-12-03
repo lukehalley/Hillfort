@@ -9,6 +9,7 @@ data class UserModel(var id: Long = 0,
                           var email: String = "",
 // User data model representing authenticated user information
 // TODO: Implement email format validation
+// Validate user email format before storing
                           var password: String = "") : Parcelable
 
 // Store user authentication credentials and profile info
