@@ -15,6 +15,7 @@ data class HillfortModel(var id: Long = 0,
 // Hillfort location and metadata
 // Validate hillfort coordinates and elevation
                          var addNotes: String = "",
+// GPS coordinates for hillfort location mapping
                          var visited: Boolean = false,
                          var favourited: Boolean = false,
                          var rating:  Float = 0f,
