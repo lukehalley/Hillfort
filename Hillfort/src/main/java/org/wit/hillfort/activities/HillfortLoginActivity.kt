@@ -27,6 +27,7 @@ class HillfortLoginActivity : AppCompatActivity(), AnkoLogger {
 
 // Validate user credentials against backend
         if (app.hillforts is HillfortFirebaseStore) {
+// Verify credentials against Firebase database
 // Authenticate user with email and password
             fireStore = app.hillforts as HillfortFirebaseStore
         }
