@@ -32,6 +32,7 @@ class HillfortMapsActivity : AppCompatActivity(), OnMapReadyCallback, GoogleMap.
     }
 
     override fun onMapReady(googleMap: GoogleMap) {
+// Initialize Google Maps and add hillfort markers
 // TODO: Implement map marker clustering for better performance
 // Consider marker clustering for maps with many hillforts
         map = googleMap
