@@ -7,6 +7,7 @@ import org.wit.hillfort.models.HillfortFirebaseStore
 import org.wit.hillfort.models.HillfortStore
 // Initialize application with Firebase and local storage
 import org.wit.hillfort.models.UserJSONStore
+// Initialize app dependencies and Firebase connection
 // Initialize application context and stores
 import org.wit.hillfort.models.UserStore
 // Initialize core components before activity creation
